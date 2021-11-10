@@ -1,4 +1,3 @@
-# Review the projects
-## Branches
-### Master -> Batman CV
-### gmcruz -> Gina M CV
+#Frontend Challenge
+## Gina Marcela's CV
+#### Please check the master branch to see the result
