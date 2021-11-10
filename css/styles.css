@@ -1,0 +1,53 @@
+body{
+    font-family: "Mohave", sans-serif;
+
+}
+.header--container {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  column-gap: 5px;
+}
+
+.header--img {
+  height: 150px;
+  border-radius: 5%;
+}
+
+.header--bg {
+  background-image: url("../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+}
+
+.main--container {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-template-rows: auto;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+
+.main--content h2 {
+  margin-top: 70px;
+}
+.main--icon {
+  color: #e4e4e4;
+  transform: translate(45%, 350%);
+}
+.main--title {
+  margin-top: 0;
+  background-color: rgb(227, 120, 139, 0.3);
+}
+
+.main--academic--icon {
+  background-image: linear-gradient(rgb(236, 88, 118), rgb(177, 98, 26));
+}
+
+.main--personal--icon {
+  background-image: linear-gradient(rgb(227, 120, 139), rgb(117, 220, 171));
+}
+.main--laboral--icon {
+  background-image: linear-gradient(rgb(247, 95, 137), rgb(37, 82, 151));
+}
